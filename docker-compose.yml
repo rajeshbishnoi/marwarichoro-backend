@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_DB: marwarichoro
       POSTGRES_USER: app
-      POSTGRES_PASSWORD: app
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports: ["5432:5432"]
     volumes:
       - pgdata:/var/lib/postgresql/data
