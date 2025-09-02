@@ -30,3 +30,6 @@ docker-data/
 # Node (if you later add Angular in same repo)
 node_modules/
 dist/
+
+git rm -r --cached .idea *.iml
+git commit -m "chore: stop tracking IDE files"
