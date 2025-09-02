@@ -1,0 +1,32 @@
+# IntelliJ / IDE
+.idea/
+*.iml
+out/
+
+# Maven / Gradle
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs & temp
+*.log
+hs_err_pid*
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+*.env
+**/application-*.local.yml
+**/application-local.yml
+
+# Docker & Compose runtime artifacts
+docker-data/
+*.pid
+
+# Node (if you later add Angular in same repo)
+node_modules/
+dist/

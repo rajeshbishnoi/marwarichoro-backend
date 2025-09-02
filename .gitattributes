@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Keep Windows batch with CRLF
+*.bat eol=crlf
+*.cmd eol=crlf
+
+# Ensure shell scripts keep LF (important for CI/Linux)
+*.sh eol=lf
+mvnw eol=lf
+gradlew eol=lf
